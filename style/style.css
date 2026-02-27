@@ -24,9 +24,9 @@ body{
 }
 h1{
     color: white;
-    &:hover{
-        transition: 1ms;
-        color: aqua;}
+    padding: 200px 0px 200px;
+   display: flex;
+   justify-content: center;
 }
 
 a{
