@@ -1,0 +1,54 @@
+*
+{
+    margin: auto;
+    padding: auto;
+    
+}
+
+header{
+    display: flex;
+    position: static;
+    padding: 40px 0px 0px;
+    
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0px 1px 0px rgb(61, 61, 61);
+}
+footer{
+background-color: rgb(26, 26, 26);
+display: flex;
+}
+
+body{
+    height: 2000px;
+    background-color: black;
+}
+h1{
+    color: white;
+    &:hover{
+        transition: 1ms;
+        color: aqua;}
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+     padding: 10px;
+    &:hover{
+        transition: 1ms;
+        color:green;
+    }
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    &:hover{
+        transition: 1ms;
+        color:rgb(0, 132, 255);
+    }
+}
